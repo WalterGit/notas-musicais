@@ -1,0 +1,27 @@
+site_name: Notas Musicais
+repo_url: https://github.com/WalterGit/notas-musicais
+repo_name: WalterGit/notas-musicais
+edit_uri: tree/main/docs
+
+
+markdown_extensions:
+    - attr_list
+
+theme:
+  name: material
+  language: pt-BR
+  logo: assets/faker2.svg
+  favicon: assets/logo.svg
+  palette: 
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-2
+        name: Switch to light mode
